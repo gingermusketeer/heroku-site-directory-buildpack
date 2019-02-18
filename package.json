@@ -1,0 +1,10 @@
+{
+  "name": "heroku-site-directory-buildpack",
+  "version": "1.0.0",
+  "description": "Buildpack for serving a directory online as a normal folder structure.",
+  "repository": "https://github.com/gingermusketeer/heroku-site-directory-buildpack",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}
