@@ -1,0 +1,10 @@
+#!/bin/sh
+set -ex
+BUILD_DIR=$1
+CACHE_DIR=$2
+ENV_DIR=$3
+
+SCRIPT_PATH=$(dirname "$SCRIPT")
+
+cp "$SCRIPT_PATH/../package.json" "$BUILD_DIR"
+cp "$SCRIPT_PATH/../yarn.lock" "$BUILD_DIR"
