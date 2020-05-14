@@ -5,7 +5,7 @@
   "repository": "https://github.com/gingermusketeer/heroku-site-directory-buildpack",
   "license": "MIT",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "http-server": "^0.12.3"
   },
   "scripts": {
     "start": "./node_modules/.bin/http-server $DIRECTORY"
